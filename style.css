@@ -7,3 +7,6 @@
 .talk-stream-tab-container.Stream__tabContainer___2trkn {
   min-height: auto ;   
 }
+body {
+  padding-bottom: 0;
+}

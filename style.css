@@ -20,7 +20,7 @@ body {
 .talk-stream-comment-wrapper.Comment__rootLevel0___1rJSw {
   border-top: none;
 }
-.talk-stream-comment.talk-stream-comment-level-0.Comment__comment___3_T6p.Comment__commentLevel0___1B4Fw > div {
+.talk-stream-comment[class~="talk-stream-comment-level-"] > div {
   display: inline-block;
   vertical-align: top;
 }
@@ -38,4 +38,13 @@ body {
   object-fit: cover;
   object-position: center center;
   margin: 0;
+}
+.talk-stream-comment-wrapper.talk-stream-comment-wrapper-level-1 {
+  margin-left: 92px;
+}
+.talk-stream-comment.talk-stream-comment-level-1 {
+  border-left: 1px #d3d3d3 solid;
+}
+.talk-stream-comment.talk-stream-comment-level-1 > .talk-stream-comment-avatar.talk-slot-comment-avatar {
+  padding-left: 25px;
 }

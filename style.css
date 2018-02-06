@@ -48,3 +48,6 @@ body {
 .talk-stream-comment.talk-stream-comment-level-1 > .talk-stream-comment-avatar.talk-slot-comment-avatar {
   margin-left: 25px;
 }
+.talk-stream-comment-container > .talk-stream-comment-header {
+  margin-top: 0;
+}

@@ -17,6 +17,25 @@ body {
 .talk-embed-stream-comment-actions-container-left.commentActionsLeft.comment__action-container {
   float: none;
 }
-.talk-stream-comment-wrapper.Comment__rootLevel0___1rJSw{
+.talk-stream-comment-wrapper.Comment__rootLevel0___1rJSw {
   border-top: none;
+}
+.talk-stream-comment.talk-stream-comment-level-0.Comment__comment___3_T6p.Comment__commentLevel0___1B4Fw > div {
+  display: inline-block;
+  vertical-align: top;
+}
+.talk-stream-comment-avatar.talk-slot-comment-avatar {
+  height: 75px;
+  width: 75px;
+  max-width: none;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 17px;
+}
+.talk-stream-comment-avatar.talk-slot-comment-avatar {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+  margin: 0;
 }

@@ -20,7 +20,7 @@ body {
 .talk-stream-comment-wrapper.Comment__rootLevel0___1rJSw {
   border-top: none;
 }
-.talk-stream-comment[class~="talk-stream-comment-level-"] > div {
+.talk-stream-comment > div {
   display: inline-block;
   vertical-align: top;
 }
@@ -46,5 +46,5 @@ body {
   border-left: 1px #d3d3d3 solid;
 }
 .talk-stream-comment.talk-stream-comment-level-1 > .talk-stream-comment-avatar.talk-slot-comment-avatar {
-  padding-left: 25px;
+  margin-left: 25px;
 }

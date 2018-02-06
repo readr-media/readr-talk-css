@@ -10,3 +10,10 @@ body {
 .talk-tab-bar.TabBar__root___15OQR {
   display: none;
 }
+.talk-stream-comment-actions-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.talk-embed-stream-comment-actions-container-left.commentActionsLeft.comment__action-container {
+  float: none;
+}

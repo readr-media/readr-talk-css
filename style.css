@@ -51,3 +51,32 @@ body {
 .talk-stream-comment-container > .talk-stream-comment-header {
   margin-top: 0;
 }
+.readr-talk-stream-auth-sign-in-button > .signin-panel {
+  display: flex;
+  align-items: center;
+}
+.readr-talk-stream-auth-sign-in-button > .signin-panel > .signin-panel__avatar {
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+}
+.readr-talk-stream-auth-sign-in-button > .signin-panel > .signin-panel__avatar > img {
+  height: 100%;
+}
+.readr-talk-stream-auth-sign-in-button > .signin-panel > .signin-panel__form {
+  margin-left: 10px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  border: 1px solid #979797;
+  flex: 1;
+  color: #808080;
+}
+.readr-talk-stream-auth-sign-in-button > .signin-panel > .signin-panel__form > a,
+.readr-talk-stream-auth-sign-in-button > .signin-panel > .signin-panel__form > a:hover,
+.readr-talk-stream-auth-sign-in-button > .signin-panel > .signin-panel__form > a:link,
+.readr-talk-stream-auth-sign-in-button > .signin-panel > .signin-panel__form > a:visited {
+  font-weight: 600;
+  color: #0a5780;
+}

@@ -1,5 +1,28 @@
 .talk-stream-tab-container.Stream__tabContainer___2trkn {
   min-height: auto ;   
+  margin-top: 12px;
+  padding-top: 25px;
+}
+.talk-stream-filter-wrapper {
+  right: auto;
+  left: 0;
+  font-size: 14px;
+  color: #808080;
+  font-weight: 300;
+  top: 0;
+}
+.talk-slot-stream-filter button {
+  color: #808080;
+}
+.talk-plugin-viewing-options-menu {
+  right: auto;
+  left: 0;
+}
+.talk-plugin-viewing-options-menu > .Category__root___uBS3w {
+  padding-bottom: 0;
+}
+.talk-plugin-viewing-options-menu > .Category__root___uBS3w  > Category__title___I3Z8i {
+  display: none;
 }
 body {
   padding-bottom: 0;
@@ -15,7 +38,7 @@ body {
 }
 .talk-stream-comment-actions-container {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 .talk-embed-stream-comment-actions-container-left.commentActionsLeft.comment__action-container {
   float: none;
@@ -27,8 +50,8 @@ body {
   display: flex;
 }
 .talk-stream-comment-avatar.talk-slot-comment-avatar {
-  height: 75px;
-  width: 75px;
+  height: 50px;
+  width: 50px;
   max-width: none;
   border-radius: 50%;
   overflow: hidden;

@@ -73,10 +73,12 @@ body {
   flex: 1;
   color: #808080;
 }
-.readr-talk-stream-auth-sign-in-button > .signin-panel > .signin-panel__form > a,
-.readr-talk-stream-auth-sign-in-button > .signin-panel > .signin-panel__form > a:hover,
-.readr-talk-stream-auth-sign-in-button > .signin-panel > .signin-panel__form > a:link,
-.readr-talk-stream-auth-sign-in-button > .signin-panel > .signin-panel__form > a:visited {
+.readr-talk-stream-auth-sign-in-button > .signin-panel > .signin-panel__form > div > a,
+.readr-talk-stream-auth-sign-in-button > .signin-panel > .signin-panel__form > div > a:hover,
+.readr-talk-stream-auth-sign-in-button > .signin-panel > .signin-panel__form > div > a:link,
+.readr-talk-stream-auth-sign-in-button > .signin-panel > .signin-panel__form > div > a:visited {
   font-weight: 600;
   color: #0a5780;
+  margin: 0 5px;
+  text-decoration: none;
 }

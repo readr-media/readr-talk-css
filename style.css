@@ -1,5 +1,28 @@
 .talk-stream-tab-container.Stream__tabContainer___2trkn {
   min-height: auto ;   
+  margin-top: 12px;
+  padding-top: 25px;
+}
+.talk-stream-filter-wrapper {
+  right: auto;
+  left: 0;
+  font-size: 14px;
+  color: #808080;
+  font-weight: 300;
+  top: 0;
+}
+.talk-slot-stream-filter button {
+  color: #808080;
+}
+.talk-plugin-viewing-options-menu {
+  right: auto;
+  left: 0;
+}
+.talk-plugin-viewing-options-menu > .Category__root___uBS3w {
+  padding-bottom: 0;
+}
+.talk-plugin-viewing-options-menu > .Category__root___uBS3w  > Category__title___I3Z8i {
+  display: none;
 }
 body {
   padding-bottom: 0;
@@ -10,9 +33,12 @@ body {
 .talk-tab-bar.TabBar__root___15OQR {
   display: none;
 }
+.talk-tab-bar.TabBar__rootSub___1UXZq {
+  display: none;
+}
 .talk-stream-comment-actions-container {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 .talk-embed-stream-comment-actions-container-left.commentActionsLeft.comment__action-container {
   float: none;
@@ -20,13 +46,12 @@ body {
 .talk-stream-comment-wrapper.Comment__rootLevel0___1rJSw {
   border-top: none;
 }
-.talk-stream-comment > div {
-  display: inline-block;
-  vertical-align: top;
+.talk-stream-comment {
+  display: flex;
 }
 .talk-stream-comment-avatar.talk-slot-comment-avatar {
-  height: 75px;
-  width: 75px;
+  height: 50px;
+  width: 50px;
   max-width: none;
   border-radius: 50%;
   overflow: hidden;
@@ -48,6 +73,40 @@ body {
 .talk-stream-comment.talk-stream-comment-level-1 > .talk-stream-comment-avatar.talk-slot-comment-avatar {
   margin-left: 25px;
 }
+.talk-stream-comment-container {
+  flex: 1;
+}
 .talk-stream-comment-container > .talk-stream-comment-header {
   margin-top: 0;
+}
+.readr-talk-stream-auth-sign-in-button > .signin-panel {
+  display: flex;
+  align-items: center;
+}
+.readr-talk-stream-auth-sign-in-button > .signin-panel > .signin-panel__avatar {
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+}
+.readr-talk-stream-auth-sign-in-button > .signin-panel > .signin-panel__avatar > img {
+  height: 100%;
+}
+.readr-talk-stream-auth-sign-in-button > .signin-panel > .signin-panel__form {
+  margin-left: 10px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  border: 1px solid #979797;
+  flex: 1;
+  color: #808080;
+}
+.readr-talk-stream-auth-sign-in-button > .signin-panel > .signin-panel__form > div > a,
+.readr-talk-stream-auth-sign-in-button > .signin-panel > .signin-panel__form > div > a:hover,
+.readr-talk-stream-auth-sign-in-button > .signin-panel > .signin-panel__form > div > a:link,
+.readr-talk-stream-auth-sign-in-button > .signin-panel > .signin-panel__form > div > a:visited {
+  font-weight: 600;
+  color: #0a5780;
+  margin: 0 5px;
+  text-decoration: none;
 }

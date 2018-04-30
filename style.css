@@ -112,3 +112,9 @@ body {
   margin: 0 5px;
   text-decoration: none;
 }
+
+@media screen and (max-width: 600px) {
+  .talk-stream-comment-wrapper.talk-stream-comment-wrapper-level-1 {
+    margin-left: 25px;
+  }
+}
